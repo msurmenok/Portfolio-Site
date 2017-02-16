@@ -23,8 +23,14 @@
 			<hr>
 			<main>
 				<section class="row cover_container">
-					<div class="col-md-12">
-						<img class="img-responsive" src="http://loremflickr.com/1200/500/code,kitten" alt="???">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<picture>
+							<source media="(min-width: 1200px)" srcset="img/kitten_1140.jpg">
+							<source media="(min-width: 992px)" srcset="img/kitten_940.jpg">
+							<source media="(min-width: 768px)" srcset="img/kitten_720.jpg">
+							<img class="img-responsive" src="img/kitten_700.jpg" alt="main cover image">
+						</picture>
+						
 					</div>
 				</section>
 				<section class="row">
@@ -33,8 +39,8 @@
 					</div>
 				</section>
 				<section class="row projects_container">
-					<article class="col-sm-6 col-md-4">
-						<img class="img-responsive center-block" src="http://loremflickr.com/400/301/director,camera/all" alt="">
+					<article class="col-xs-12 col-sm-6 col-md-4">
+						<img class="img-responsive center-block" src="img/movie-production.jpg" alt="movie trailers">
 						<h3 class="text-center text-uppercase">Movie Trailers</h3>
 						<h5 class="text-center">
 							<a href="https://github.com/MariiaSurmenok/Movie-Trailer-Website">
@@ -42,8 +48,8 @@
 							</a>
 						</h5>
 					</article>
-					<article class="clearfix col-sm-6 col-md-4">
-						<img class="img-responsive center-block" src="http://loremflickr.com/400/302/receipt,grocery/all" alt="">
+					<article class="col-xs-12 col-sm-6 col-md-4">
+						<img class="img-responsive center-block" src="img/grocery-receipt.jpg" alt="grocery receipt">
 						<h3 class="text-center text-uppercase">Receipt Parser</h3>
 						<h5 class="text-center">
 							<a href="https://github.com/MariiaSurmenok/Receipt-Parser">
@@ -51,8 +57,8 @@
 							</a>
 						</h5>
 					</article>
-					<article class="col-sm-offset-0 col-sm-6 col-md-4">
-						<img class="img-responsive center-block" src="http://loremflickr.com/400/303/tic,tac,toe/all" alt="">
+					<article class="col-xs-12 col-sm-6 col-md-4">
+						<img class="img-responsive center-block" src="img/tic-tac-toe.jpg" alt="wooden tic-tac-toe">
 						<h3 class="text-center text-uppercase">Gomoku</h3>
 						<h5 class="text-center">
 							<a href="https://github.com/MariiaSurmenok/Gomoku">
