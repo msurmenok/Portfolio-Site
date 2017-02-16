@@ -27,6 +27,10 @@ h4 {
 	margin-top: -5px;
 }
 
+h5 {
+	height: 35px;
+}
+
 h5 a {
 	color: #2d3c49;
 	font: 1em 'Roboto', sans-serif;
@@ -44,4 +48,8 @@ hr {
 	border-top: 1px solid #aaaaaa;
     border-bottom: 5px solid #7d97ad;
 	color: #7d97ad;
+}
+
+.projects_container article {
+	margin-bottom: 40px;
 }
