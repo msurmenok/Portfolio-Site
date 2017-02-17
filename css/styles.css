@@ -45,10 +45,13 @@ main {
 	margin-bottom: 30px;
 }
 
-hr {
+hr.row {
 	border-top: 1px solid #aaaaaa;
 	border-bottom: 5px solid #7d97ad;
 	color: #7d97ad;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
 }
 
 .projects_container article {
