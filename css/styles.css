@@ -4,37 +4,37 @@ header {
 
 h1 {
 	color: #2d3c49;
-	font: 3.8em 'Josefin Sans', sans-serif;
+	font: 3.8em "Josefin Sans", sans-serif;
 	font-weight: 300;
 	margin-top: 0;
 }
 
 h2 {
 	color: #7d97ad;
-	font: 2.7em 'Roboto', sans-serif;
+	font: 2.7em "Roboto", sans-serif;
 	margin-left: 10px;
 }
 
 h3 {
 	color: #2d3c49;
-	font: 2.7em 'Roboto', sans-serif;
+	font: 2.7em "Roboto", sans-serif;
 	margin-top: 10px;
 }
 
 h4 {
 	color: #2d3c49;
-	font: 1.5em 'Josefin Sans', sans-serif;
+	font: 1.5em "Josefin Sans", sans-serif;
 	font-weight: bold;
 	margin-top: -5px;
 }
 
-h5 {
+p {
 	height: 35px;
 }
 
-h5 a {
+p a {
 	color: #2d3c49;
-	font: 1em 'Roboto', sans-serif;
+	font: 1em "Roboto", sans-serif;
 }
 
 main {
