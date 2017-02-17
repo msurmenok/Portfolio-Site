@@ -47,7 +47,7 @@ main {
 
 hr {
 	border-top: 1px solid #aaaaaa;
-    border-bottom: 5px solid #7d97ad;
+	border-bottom: 5px solid #7d97ad;
 	color: #7d97ad;
 }
 
@@ -55,6 +55,7 @@ hr {
 	margin-bottom: 40px;
 }
 
+/* Design for mobile view */
 @media screen and (max-width: 767px) {
 	header {
 		display: flex;
