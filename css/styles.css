@@ -45,7 +45,7 @@ main {
 	margin-bottom: 30px;
 }
 
-hr.row {
+.separator {
 	border-top: 1px solid #aaaaaa;
 	border-bottom: 5px solid #7d97ad;
 	color: #7d97ad;
