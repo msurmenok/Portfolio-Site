@@ -61,30 +61,8 @@ main {
 
 /* Design for mobile view */
 @media screen and (max-width: 767px) {
-	header {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
+	
 	h1 {
 		font-size: 3em;
-		margin-top: 15px;
-	}
-
-	h4 {
-		max-width: 240px;
-		margin-top: 15px;
-	}
-
-	.logo-container {
-		order: 0;
-	}
-
-	.occupation-container {
-		order: 1;
-	}
-
-	.name-container {
-		order: 2;
 	}
 }
